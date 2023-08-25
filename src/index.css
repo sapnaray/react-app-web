@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+.navbar{
+  background-color: #9d55b6 ;
+}
+
+.navbar-nav .nav-link.active{
+  color:white;
+}
+.navbar a{
+  color:white;
+}
+.navbar a:hover{
+  border-bottom:2px solid white;
+
+}
+.header{
+  padding-top:2.5rem;
+}
+
+img{
+  width:100%;
+
+}
+.btn{
+  width:50%;
+}
+.section{
+  max-width: 60vw;
+  background-color: #9d55b6;
+  color:white;
+  justify-content: center;
+}
+
+.card:hover{
+  transform: translateY(-20px);
+  box-shadow: 0px 6px 6px #5283ae;
+  
+  
+
+}
+
+/* footer page*/
+ .footer_top{
+ background-color: aliceblue;
+
+  width:70%;
+  margin:auto;
+  padding:15px;
+  transform: translateY(20px);
+  border-radius: 10px;
+
+  
+ }
+ .footer_top h5{
+  font-size: small;
+  text-align: center;
+  
+ }
+ .footer_top button{
+  align-items: center;
+  width:50%;
+  float:right;
+  
+ }
+
+ .footer_bottom{
+  background-color: navy;
+  color:white;
+ }
+ .container_footer{
+  width:70%;
+  margin:auto;
+  padding:2px;
+  font-size: small;
+ }
+
+.container_footer h5{
+  font-size: medium;
+}
+
+.container_footer button{
+  width:100%;
+  align-items: center;
+  
+  
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+}
+hr{
+  opacity: 4.25;
+}
+.container{
+  color:white;
+}
+ 
+.carousal{
+  justify-content: center;
+}
